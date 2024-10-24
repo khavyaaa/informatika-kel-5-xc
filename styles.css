@@ -1,0 +1,17 @@
+/* Place your CSS styles in this file */
+body {background-color:rgb(121, 101, 101);
+border: 5px solid rgb(101, 74, 74);
+}
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro",'Gill Sans','Times New Roman', Times, serif
+    font-weight: bold;
+}
+p {font-size: 100px;}
+ul{list-style-type: none;
+text-align: center;
+}
+li{display: inline;}
+ul{background-color: rgb(101, 74, 74);
+img {display:block;
+margin: auto;}
