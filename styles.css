@@ -1,17 +1,87 @@
-/* Place your CSS styles in this file */
-body {background-color:rgb(121, 101, 101);
-border: 5px solid rgb(101, 74, 74);
-}
-h1 {
+body {
     text-align: center;
-    font-family: "Source Sans Pro",'Gill Sans','Times New Roman', Times, serif
+    background-color: darkblue;
+    border: 5px solid white; 
+    border-radius: 15px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    color: rgb(255, 245, 187);
+}
+
+li {
+    display: inline;
+    margin: 0 5px;
+}
+
+h1 {
+    color: azure;
+    text-align: center;
+    font-weight: normal;
+    font-size: 65px;
+}
+
+.center {
+    text-align: center; 
+}
+
+.paragraph1 {
+    color: rgb(255, 245, 187);
+    font-size: 30px;
+}
+
+.paragraph2 {
+    color: lightblue;
+    margin: 0 5px;
+}
+
+.paragraph3 {
+    color: lightblue;
+}
+
+.paragraph4 {
+    color: rgb(255, 245, 187);
+    font-size: 27px;
+}
+
+
+.team-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.team-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: darkblue;
+    max-width: 430px;
+}
+
+.team-box h2 {
+    font-size: 24px;
+    color: #5D3FD3;
+}
+
+.team-box p {
+    font-size: 16px;
+}
+
+.assigned {
     font-weight: bold;
 }
-p {font-size: 100px;}
-ul{list-style-type: none;
-text-align: center;
+
+
+.full-width {
+    grid-column: 1 / span 2; 
+    justify-self: center;
+    width: 100%;
+    max-width: 410px;
 }
-li{display: inline;}
-ul{background-color: rgb(101, 74, 74);
-img {display:block;
-margin: auto;}
